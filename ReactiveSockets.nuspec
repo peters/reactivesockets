@@ -20,12 +20,12 @@
         <iconUrl>https://github.com/clariuslabs/adapter/raw/master/Common/ClariusLabsIcon.png</iconUrl>
         <tags>reactive socket</tags>
         <dependencies>
-            <group targetFramework="net40">
-                <dependency id="Rx-Main" version="2.1.30214.0" />
-            </group>
+			<dependency id="Rx-Main" version="2.1.30214.0" />
         </dependencies>
-        <frameworkAssemblies>
-            <frameworkAssembly assemblyName="System.Net" targetFramework="net40" />
-        </frameworkAssemblies>
     </metadata>
+	<files>
+		<file src="$outputfolder$\v4.0\reactivesockets.dll" target="lib\net40" />
+		<file src="$outputfolder$\v4.5\reactivesockets.dll" target="lib\net45" />
+		<file src="$outputfolder$\v4.5.1\reactivesockets.dll" target="lib\net451" />
+	</files>
 </package>
